@@ -1,0 +1,38 @@
+#btn-container {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+.button img {
+    width: 150px;
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 1px;
+}
+
+#score-container{
+    display: flex;
+    justify-content: center;
+}
+.score {
+    font-size: 80px;
+    padding: 0px 40px;
+}
+
+#results-container{
+    margin-top: 60px;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s ease;
+}
